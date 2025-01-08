@@ -18,6 +18,7 @@ const Layout = ({ children, params }: Props) => {
             {/* InfoBar */}
             <div className="lg:ml-[250px] lg:pl-10 lg:py-5 flex flex-col overflow-auto">
                 <InfoBar slug={params.slug} />
+                {children}
             </div>
         </div>
     )
